@@ -40,15 +40,7 @@ function NavBar() {
               <Nav.Link to="/login" className="navLink">
                 Login
               </Nav.Link>
-              <Form className="d-flex">
-                <FormControl
-                  type="search"
-                  placeholder="Search"
-                  className="md-2"
-                  aria-label="Search"
-                />
-                <Button style={{marginLeft:"5px",fontSize:"20px"}} variant="outline-warning ">Search</Button>
-              </Form>
+              
             </Nav>
           </Navbar.Collapse>
         </Container>
