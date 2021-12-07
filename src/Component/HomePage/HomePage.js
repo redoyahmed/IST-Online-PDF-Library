@@ -1,19 +1,17 @@
 import React from "react";
-import backgroundImg from "../../images/backgroundImg.jpg";
-//import { Button, Form, FormControl } from "react-bootstrap";
+import { Button, Form, FormControl } from "react-bootstrap";
+
 import "./HomePage.css";
 
 function HomePage(props) {
   return (
     <div className="background">
-      
-
       <div>
-        {/* <Form className="d-flex">
+        <Form className="d-flex ">
           <FormControl
             type="search"
             placeholder="Search"
-            className="md-2"
+            className="md-2 w-50"
             aria-label="Search"
           />
           <Button
@@ -22,7 +20,13 @@ function HomePage(props) {
           >
             Search
           </Button>
-        </Form> */}
+        </Form>
+        <div>
+          <Button>ECE</Button>
+          <Button>CSE</Button>
+          <Button>BBA</Button>
+          <Button>Diploma</Button>
+        </div>
       </div>
     </div>
   );

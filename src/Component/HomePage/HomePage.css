@@ -1,3 +1,9 @@
 .background {
-  background-image: url(../images/backgroundImage.png);
+  background-image: url(../../images/backgroundImg.jpg)!important;
+  position: relative;
+  height: 100vh;
+  width:auto !important;
 }
+
+
+/*  */

@@ -36,6 +36,9 @@ function NavBar() {
               <Nav.Link to="/contact" className="navLink">
                 Contact
               </Nav.Link>
+              <Nav.Link to="/about" className="navLink">
+                About
+              </Nav.Link>
 
               <Nav.Link to="/login" className="navLink">
                 Login
