@@ -5,8 +5,8 @@ import "./HomePage.css";
 
 function HomePage(props) {
   return (
-    <div className="backgroundImg">
-      <img src={backgroundImg} alt="" />
+    <div className="background">
+      
 
       <div>
         {/* <Form className="d-flex">
