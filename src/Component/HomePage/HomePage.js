@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Form, FormControl } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import "./HomePage.css";
 
@@ -8,7 +9,8 @@ function HomePage(props) {
     <div className="background my-0 py-0">
       <div className="container p-5">
         <Form id="searchBar" className="d-flex py-2 ">
-          <FormControl id="inputSearch"
+          <FormControl
+            id="inputSearch"
             type="search"
             placeholder="Search Your Book"
             className="md-2 w-40 "
@@ -21,7 +23,6 @@ function HomePage(props) {
               fontSize: "25px",
               width: "150px",
               fontWeight: "bold",
-              
             }}
             variant="outline-warning "
           >
@@ -30,7 +31,9 @@ function HomePage(props) {
         </Form>
         <div className="row my-5">
           <div className="homeButton d-flex col-md-6 col-md-12">
-            <button>ECE</button>
+            <Link to="/books">
+              <button>ECE</button>
+            </Link>
             <button>CSE</button>
             <button>BBA</button>
             <button>Diploma</button>

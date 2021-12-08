@@ -1,15 +1,17 @@
-import NavBar from "../src/Component/NavBar/NavBar";
-//import Footer from "./Component/Footer/Footer";
-import HomePage from "./Component/HomePage/HomePage";
-
+import Books from "./Component/Books/Books";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Component/Home/Home";
 
 function App() {
   return (
     <div>
-      <NavBar></NavBar>
-      <HomePage></HomePage>
-      {/* <Footer></Footer> */}
-      
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home></Home>} />
+          <Route path="/home" element={<Home></Home>} />
+          <Route path="/books" element={<Books></Books>} />
+        </Routes>
+      </Router>
     </div>
   );
 }

@@ -24,10 +24,10 @@
   font-size: 20px;
   color: white;
   font-weight: bold;
+  border-bottom:0px;
 }
 .homeButton button:hover {
   background-color: rgb(240, 165, 3);
   color: black;
 }
-.searchOption {
-}
+
