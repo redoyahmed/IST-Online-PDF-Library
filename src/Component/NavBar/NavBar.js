@@ -13,21 +13,21 @@ import {
 function NavBar() {
   return (
     <>
-      <Navbar className="navBar" bg='dark' variant="dark" expand="md">
+      <Navbar className="navBar"  variant="dark" collapseOnSelect expand="md" sticky="top">
         <Container>
           <img
             className="logoImg"
-            style={{ width: "120px", height: "120px", paddingRight: "10px" }}
+            style={{ width: "100px", height: "100px", paddingRight: "10px" }}
             src={istLogo}
             alt=""
           />
-          <Navbar.Brand style={{ fontSize: "25px" }}>
+          <Navbar.Brand style={{ fontSize: "35px",color:"black",fontWeight:"bold" }}>
             IST Online Library
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link to="/" className="navLink">
+              <Nav.Link to="/" className="navLink"  >
                 Home
               </Nav.Link>
               <Nav.Link to="/books" className="navLink">
