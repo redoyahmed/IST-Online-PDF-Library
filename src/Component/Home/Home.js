@@ -4,7 +4,7 @@ import NavBar from "../NavBar/NavBar";
 
 function Home(props) {
   return (
-    <div className="background">
+    <div>
       <NavBar></NavBar>
       <HomePage></HomePage>
     </div>

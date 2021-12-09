@@ -7,7 +7,7 @@ import "./HomePage.css";
 function HomePage(props) {
   return (
     <div className="background my-0 py-0">
-      <div className="container p-5">
+      <div className="container  p-5">
         <Form id="searchBar" className="d-flex py-2 ">
           <FormControl
             id="inputSearch"
@@ -29,14 +29,19 @@ function HomePage(props) {
             Search
           </Button>
         </Form>
-        <div className="row my-5">
-          <div className="homeButton d-flex col-md-6 col-md-12">
-            <Link to="/books">
-              <button>ECE</button>
-            </Link>
-            <button>CSE</button>
-            <button>BBA</button>
-            <button>Diploma</button>
+        <div className="row  my-5">
+          <div className="homeButton col-lg-4 col-sm-2 text-center">
+            <div className="d-flex ">
+              <Link to="books/eceBooks">
+                <button>ECE</button>
+              </Link>
+              <Link to="books/cseBooks">
+                <button>CSE</button>
+              </Link>
+              <Link to="books/bbaBooks">
+                <button>BBA</button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

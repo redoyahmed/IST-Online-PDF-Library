@@ -1,12 +1,12 @@
 import React from "react";
-import Ansi from "../EceBook/EceData/Ansi.jpg";
-import biomedical from "../EceBook/EceData/biomedical.jpg";
-import circuit from "../EceBook/EceData/circuit.jpg";
-import Electrical from "../EceBook/EceData/Electrical.jpg";
-import dataCom from "../EceBook/EceData/dataCom.jpg";
-import calculus from "../EceBook/EceData/calculus.jpg";
-
+import Ansi from "../../../images/Ansi.jpg";
+import biomedical from "../../../images/biomedical.jpg";
+import circuit from "../../../images/circuit.jpg";
+import Electrical from "../../../images/Electrical.jpg";
+import dataCom from "../../../images/dataCom.jpg";
+import calculus from "../../../images/calculus.jpg";
 import EceBookCart from "./EceBookCart";
+import "../Books.css";
 
 function EceBook(props) {
   const eceBooks = [
@@ -61,10 +61,10 @@ function EceBook(props) {
   ];
 
   return (
-    <section>
+    <section className=" backgroundBooks">
       <div className="mt-3 pt-3">
         <div className="text-center">
-          <h2 className="text-dark " style={{ fontSize: "65px" }}>
+          <h2 className="text-light " style={{ fontSize: "65px" }}>
             ECE BookList
           </h2>
         </div>

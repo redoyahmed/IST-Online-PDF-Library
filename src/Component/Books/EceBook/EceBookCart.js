@@ -2,11 +2,11 @@ import React from "react";
 
 function EceBookCart({ book }) {
   return (
-    <div className=" col-md-4 col-sm-2 text-center">
-      <div className="card shadow-sm  justify-content-center py-3">
-        <div className="card-body bg-dark ">
+    <div className=" col-md-4 col-sm-2 text-center ">
+      <div className="card shadow-sm  justify-content-center  m-3">
+        <div className="card-body bg-dark  ">
           <img
-            style={{ height: "400px", width: "400px", color: "info" }}
+            style={{ height: "300px", width: "300px" }}
             src={book.coverPic}
             alt=""
           />
@@ -20,10 +20,11 @@ function EceBookCart({ book }) {
                 backgroundColor: "#FFC207",
                 color: "black",
                 border: "none",
-                padding: "3px",
+                padding: "10px",
                 width: "200px",
                 fontSize: "20px",
                 textDecoration: "none",
+                marginBottom:"5px"
               }}
             >
               {" "}
