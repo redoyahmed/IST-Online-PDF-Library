@@ -22,7 +22,7 @@ function Footer() {
      <Col xs = {4} className="col">
      <h3> <b> Our Clubs </b> </h3>
       <ul className = "unlistedItem" >
-        <li> <h5>Electronics Communication and Robotics Club (ECRC) </h5></li>
+        <li> <h5>Electronics Communication and Robotics Club (ECRCc) </h5></li>
         <li><h5>Programming Club of IST (pcIST)</h5></li>
         <li><h5>Carrirer Development Club (CDC)</h5></li>
       </ul>
